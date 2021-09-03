@@ -27,7 +27,7 @@ echo "  4)operation 4"
 
 read n
 case $n in
-  1) git clone https://github.com/SystemTH/test.git;;
+  1) git fetch;;
   2) echo "You chose Option 2";;
   3) echo "You chose Option 3";;
   4) echo "You chose Option 4";;

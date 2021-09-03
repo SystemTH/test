@@ -30,3 +30,4 @@ case $n in
   4) echo "You chose Option 4";;
   *) echo "invalid option";;
 esac
+echo "sjsj"

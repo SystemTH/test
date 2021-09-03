@@ -18,4 +18,4 @@ echo "${Y}┃┗━┛┃   ┃┃   ┃┗━┛┃   ┃┃   ┃┗━━┓ 
 echo "${Y}┗━━━┛   ┗┛   ┗━━━┛   ┗┛   ┗━━━┛ ┗┛┗┛┗┛      ┗┛   ┗┛ ┗┛${NC}"
 echo "                 ${R}Y : System TH ${NC}"
 
-echo "#(#+#;;#"
+echo "siehejekej"

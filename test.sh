@@ -5,8 +5,10 @@ R='\033[1;41m' # Red
 Y='\033[1;33m' # Yellow
 NC='\033[0m' # No color
 
-sleep 1
+git pull
+
 clear
+sleep 1
 
 echo "${Y}┏━━━┓ ┏┓  ┏┓ ┏━━━┓ ┏━━━━┓ ┏━━━┓ ┏━┓┏━┓    ┏━━━━┓ ┏┓ ┏┓${NC}"
 echo "${Y}┃┏━┓┃ ┃┗┓┏┛┃ ┃┏━┓┃ ┃┏┓┏┓┃ ┃┏━━┛ ┃ ┗┛ ┃    ┃┏┓┏┓┃ ┃┃ ┃┃${NC}"
@@ -15,19 +17,3 @@ echo "${Y}┗━━┓┃  ┗┓┏┛  ┗━━┓┃   ┃┃   ┃┏━━
 echo "${Y}┃┗━┛┃   ┃┃   ┃┗━┛┃   ┃┃   ┃┗━━┓ ┃┃┃┃┃┃      ┃┃   ┃┃ ┃┃${NC}"
 echo "${Y}┗━━━┛   ┗┛   ┗━━━┛   ┗┛   ┗━━━┛ ┗┛┗┛┗┛      ┗┛   ┗┛ ┗┛${NC}"
 echo "                 ${R}Y : System TH ${NC}"
-
-echo "select the operation ************"
-echo "  1)operation 1"
-echo "  2)operation 2"
-echo "  3)operation 3"
-echo "  4)operation 4" 
-
-read n
-case $n in
-  1) git fetch;;
-  2) git pull;;
-  3) git clone https://github.com/SystemTH/test.git;;
-  4) echo "You chose Option 4";;
-  *) echo "invalid option";;
-esac
-echo "sjsj"

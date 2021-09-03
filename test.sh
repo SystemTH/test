@@ -27,7 +27,7 @@ read n
 case $n in
   1) git fetch;;
   2) git pull;;
-  3) echo "You chose Option 3";;
+  3) git clone https://github.com/SystemTH/test.git;;
   4) echo "You chose Option 4";;
   *) echo "invalid option";;
 esac

@@ -14,7 +14,7 @@ echo "${Y}┃┗━━┓ ┗┓┗┛┏┛ ┃┗━━┓ ┗┛┃┃┗┛ 
 echo "${Y}┗━━┓┃  ┗┓┏┛  ┗━━┓┃   ┃┃   ┃┏━━┛ ┃┃┃┃┃┃      ┃┃   ┃┏━┓┃${NC}"
 echo "${Y}┃┗━┛┃   ┃┃   ┃┗━┛┃   ┃┃   ┃┗━━┓ ┃┃┃┃┃┃      ┃┃   ┃┃ ┃┃${NC}"
 echo "${Y}┗━━━┛   ┗┛   ┗━━━┛   ┗┛   ┗━━━┛ ┗┛┗┛┗┛      ┗┛   ┗┛ ┗┛${NC}"
-echo "                 ${R}YouTube : System TH ${NC}"
+echo "                 ${R}You : System TH ${NC}"
 
 echo "select the operation ************"
 echo "  1)operation 1"
